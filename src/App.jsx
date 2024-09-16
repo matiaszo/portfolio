@@ -4,7 +4,6 @@
 import style from './App.module.css'
 
 export default function App() {
-//   const [count, setCount] = useState(0)
 
   return (
     <>
@@ -76,7 +75,7 @@ export default function App() {
                 </div>
             </div>
         </div>
-        <div className={style.second}>
+        <div id='social' className={style.second}>
             <h1>Social</h1>
             <div className={style.specifics}>
                 <img className={style.languages} src="./src/assets/Instagram_logo.png"/>
