@@ -10,8 +10,9 @@ export default function App() {
           <header>
         <h1 className={style.m}>M</h1>
         <div className={style.row}>
-            <h2>Home</h2>
-            <a href="#social"><h2>Social</h2></a>
+            <a href="#home"><h2>Home</h2></a>
+            <a href="#social"><h2>Social</h2></a>   
+            <a href="#profesional"><h2>Profesional</h2></a>
             <form>
                 <a href="https://gmail.com/"><input type="button" name="Botao" value="Contact"/></a>
             </form>
@@ -19,7 +20,7 @@ export default function App() {
     </header>
 
     <main>
-        <div className={style.pai2}>
+        <div id='home' className={style.pai2}>
             <div className={style.filho1}>
                 <p>L</p>
                 <p>T</p>
@@ -36,6 +37,34 @@ export default function App() {
             </div>
             <img className={style.image} src="./src/assets/my_photo.jpeg" alt=""/>
         </div>
+
+        <div id='profesional' className={style.second}>
+            <h1>My name is Matias Andres de Oliveira Zuniga</h1>
+            <div className={style.projects}>
+            <h2>College:</h2>
+                    <div>
+                        <h2>I am currently studying computer.</h2>
+                        <br/>
+                        <h2>engineering at PUCPR, on the fourth</h2>
+                        <br/>
+                        <h2>period.</h2>
+                    </div>
+                    <img  src="./src/assets/curso.jpg"/>
+            </div>
+
+            <div className={style.projects}>
+            <h2>Work:</h2>
+                    <div>
+                        <h2>I am an apprentice at Robert Bosch.</h2>
+                        <br/>
+                        <h2>On the first year of two. Learning about</h2>
+                        <br/>
+                        <h2> different languages and programming skills.</h2>
+                    </div>
+                    <img  src="./src/assets/turma_bosch.jpg"/>
+            </div>
+        </div>
+
         <div className={style.second}>
             <h1>Languages </h1>
             <div className={style.specifics} >
@@ -75,6 +104,8 @@ export default function App() {
                 </div>
             </div>
         </div>
+
+
         <div id='social' className={style.second}>
             <h1>Social</h1>
             <div className={style.specifics}>

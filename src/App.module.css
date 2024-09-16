@@ -8,11 +8,13 @@
 }
 .row{
   display: flex;
+  position: fixed;
   flex-direction: row;
   justify-content: space-between;
   width: 30%;
   gap: 10%;
-  margin-right: 5%;
+  margin-left: 65%;
+  z-index: 999;
 }
 
 .pai2 {
@@ -21,7 +23,7 @@
   width: 80vw;
   position: relative;
   /* padding: 60px; */
-  margin-top: 150%;
+  margin-top: 210%;
 }
 
 .pai2 img{
