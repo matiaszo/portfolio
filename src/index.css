@@ -9,6 +9,7 @@
 
 a{
   color: var(--batata);
+  text-decoration: none;
 }
 
 body{

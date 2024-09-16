@@ -13,6 +13,7 @@ export default function App() {
             <a href="#home"><h2>Home</h2></a>
             <a href="#social"><h2>Social</h2></a>   
             <a href="#profesional"><h2>Profesional</h2></a>
+            <a href="#projects"><h2>Projects</h2></a>
             <form>
                 <a href="https://gmail.com/"><input type="button" name="Botao" value="Contact"/></a>
             </form>
@@ -76,23 +77,23 @@ export default function App() {
             </div>
         </div>
 
-        <div className={style.third}>
+        <div id='projects' className={style.third}>
             <h1>My projects</h1>
             <div className={style.projects}>
-                <h2>PokeVoice:</h2>
+                <a href="https://github.com/CrCardd/PokeVoice"><h2>PokeVoice:</h2></a>
                 <div>
                     <h2>Final project of program logic on Senai.</h2>
                     <br/>
                     <h2>It was made with C and python, and took</h2>
                     <br/>
-                    <h2>about 8 days to be finished!</h2>
+                    <h2>about 8 days to be finished!</h2>   
                 </div>
-                <img  src="./src/assets/pokemon.jpg"/>
+               <img src="./src/assets/pokemon.jpg"/>
             </div>
 
             <div className={style.projects}>
-                <img  src="./src/assets/cat_feeder.PNG"/>
-                <h2>CatFeeder:</h2>
+                <img src="./src/assets/cat_feeder.PNG"/>
+                <a href="https://github.com/matiaszo/projeto_web"><h2>CatFeeder:</h2></a>
                 <div>
                     <h2>Final project of IOT at Bosch.</h2>
                     <br/>
