@@ -15,7 +15,7 @@ export default function App() {
             <a href="#profesional"><h2>Profesional</h2></a>
             <a href="#projects"><h2>Projects</h2></a>
             <form>
-                <a href="https://gmail.com/"><input type="button" name="Botao" value="Contact"/></a>
+                <a href="https://wa.me/5541991576895" target='_blank'><input type="button" name="Botao" value="Contact"/></a>
             </form>
         </div>
     </header>
@@ -80,7 +80,7 @@ export default function App() {
         <div id='projects' className={style.third}>
             <h1>My projects</h1>
             <div className={style.projects}>
-                <a href="https://github.com/CrCardd/PokeVoice"><h2>PokeVoice:</h2></a>
+                <a href="https://github.com/CrCardd/PokeVoice" target='_blank' ><h2>PokeVoice:</h2></a>
                 <div>
                     <h2>Final project of program logic on Senai.</h2>
                     <br/>
@@ -93,7 +93,7 @@ export default function App() {
 
             <div className={style.projects}>
                 <img src="./src/assets/cat_feeder.PNG"/>
-                <a href="https://github.com/matiaszo/projeto_web"><h2>CatFeeder:</h2></a>
+                <a href="https://github.com/matiaszo/projeto_web" target='_blank' ><h2>CatFeeder:</h2></a>
                 <div>
                     <h2>Final project of IOT at Bosch.</h2>
                     <br/>
