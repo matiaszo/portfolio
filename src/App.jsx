@@ -26,9 +26,9 @@ export default function App() {
             <a href="#social"><h2>Social</h2></a>   
             <a href="#profesional"><h2>Profesional</h2></a>
             <a href="#projects"><h2>Projects</h2></a>
-            <form>
+            {/* <form> */}
                 <a href="https://wa.me/5541991576895" target='_blank'><input type="button" name="Botao" value="Contact"/></a>
-            </form>
+            {/* </form> */}
         </div>
     </header>
 
