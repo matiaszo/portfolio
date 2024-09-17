@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import style from './App.module.css'
 
-import curso from "./src/assets/curso.jpg"
+import curso from "./assets/curso.jpg"
 
 export default function App() {
 
