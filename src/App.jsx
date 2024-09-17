@@ -1,9 +1,19 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import style from './App.module.css'
 
 import curso from "./assets/curso.jpg"
+import myphoto from "./assets/my_photo.jpeg"
+import turma_bosch from "./assets/turma_bosch.jpg"
+import python from "./assets/python-icon-512x509-pb65l7gl.png"
+import c_linguagem from "./assets/C_Logo.png"
+import java from "./assets/java-svgrepo-com.svg"
+import sql from "./assets/sql.png"
+import vba from "./assets/vba_bom.png"
+import pokevoice from "./assets/pokemon.jpg"
+import cat_feeder from "./assets/cat_feeder.PNG"
+import instagram from "./assets/Instagram_logo.png"
+import linkedin from "./assets/linkedin.png"
+import twitter from "./assets/twitter.png"
+
 
 export default function App() {
 
@@ -38,7 +48,7 @@ export default function App() {
                 <p>A</p>
                 <p>K</p>
             </div>
-            <img className={style.image} src="./src/assets/my_photo.jpeg" alt=""/>
+            <img className={style.image} src={myphoto} alt="minha foto"/>
         </div>
 
         <div id='profesional' className={style.second}>
@@ -64,18 +74,18 @@ export default function App() {
                         <br/>
                         <h2> different languages and programming skills.</h2>
                     </div>
-                    <img  src="./src/assets/turma_bosch.jpg"/>
+                    <img  src={turma_bosch}/>
             </div>
         </div>
 
         <div className={style.second}>
             <h1>Languages </h1>
             <div className={style.specifics} >
-                <img className={style.languages} src="./src/assets/python-icon-512x509-pb65l7gl.png"/>
-                <img className={style.languages} src="./src/assets/C_Logo.png"/>
-                <img className={style.languages} src="./src/assets/java-svgrepo-com.svg"/>
-                <img className={style.languages} src="./src/assets/sql.png"/>
-                <img className={style.languages} src="./src/assets/vba_bom.png"/>
+                <img className={style.languages} src={python}/>
+                <img className={style.languages} src={c_linguagem}/>
+                <img className={style.languages} src={java}/>
+                <img className={style.languages} src={sql}/>
+                <img className={style.languages} src={vba}/>
             </div>
         </div>
 
@@ -90,11 +100,11 @@ export default function App() {
                     <br/>
                     <h2>about 8 days to be finished!</h2>   
                 </div>
-               <img src="./src/assets/pokemon.jpg"/>
+               <img src={pokevoice}/>
             </div>
 
             <div className={style.projects}>
-                <img src="./src/assets/cat_feeder.PNG"/>
+                <img src={cat_feeder}/>
                 <a href="https://github.com/matiaszo/projeto_web" target='_blank' ><h2>CatFeeder:</h2></a>
                 <div>
                     <h2>Final project of IOT at Bosch.</h2>
@@ -112,9 +122,9 @@ export default function App() {
         <div id='social' className={style.second}>
             <h1>Social</h1>
             <div className={style.specifics}>
-                <a href="https://www.instagram.com/"><img className={style.languages} src="./src/assets/Instagram_logo.png"/></a>
-                <a href="https://br.linkedin.com/"><img className={style.languages} src="./src/assets/linkedin.png"/></a>
-                <a href="https://www.threads.net/?hl=pt-br"><img className={style.languages} src="./src/assets/twitter.png"/></a>
+                <a href="https://www.instagram.com/"><img className={style.languages} src={instagram}/></a>
+                <a href="https://br.linkedin.com/"><img className={style.languages} src={linkedin}/></a>
+                <a href="https://www.threads.net/?hl=pt-br"><img className={style.languages} src={twitter}/></a>
             </div>
         </div>
     </main>
