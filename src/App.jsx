@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 import style from './App.module.css'
 
+import curso from "./src/assets/curso.jpg"
+
 export default function App() {
 
   return (
@@ -50,7 +52,7 @@ export default function App() {
                         <br/>
                         <h2>semester.</h2>
                     </div>
-                    <img  src="./src/assets/curso.jpg"/>
+                    <img src={curso}/>
             </div>
 
             <div className={style.projects}>
