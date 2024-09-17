@@ -21,8 +21,9 @@
 }
 
 .pai2 img{
-  width: 23%;
-  height: 380px;
+  aspect-ratio: 1;  
+  width: 22%;
+  object-fit: cover;
   border-radius: var(--border_50);
   border: solid 3px var(--alice);
 }
