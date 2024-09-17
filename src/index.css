@@ -1,5 +1,7 @@
 :root {
-  --batata: #090909
+  --back_color: #0c243C;
+  --input_color: #113b64;
+  /* fontes, shadows, border radius */
 }
 
 *{
@@ -13,8 +15,7 @@ a{
 }
 
 body{
-  /* height: 100%; */
-  background-color: #0c243C;
+  background-color: var(back_color);
 }
 
 header{
@@ -22,7 +23,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #0c243C;
+  background-color: var(back_color);
   width: 100%;
   height: 10vh;
 
@@ -38,7 +39,7 @@ main{
 
 input{
   border: none;
-  background-color: #113b64;
+  background-color: var(--input_color);
   border-radius: 7px;
   height: 30px;
   font-size: 1em;

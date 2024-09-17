@@ -7,6 +7,12 @@ export default function App() {
 
   return (
     <>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"></link>
+    </head>
+
           <header>
         <h1 className={style.m}>M</h1>
         <div className={style.row}>
