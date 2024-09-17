@@ -2,14 +2,13 @@
   margin-left: 3%;
 }
 .row{
-  display: flex;
-  position: fixed;
+  display: flex; 
   flex-direction: row;
-  justify-content: space-between;
-  width: 30%;
-  gap: 10%;
-  margin-left: 65%;
-  z-index: 999;
+   justify-content: space-between;
+   width: 30%;
+   gap: 2%; 
+   margin-right: 5%;
+   z-index: 999;
 }
 
 .pai2 {
@@ -21,8 +20,9 @@
 }
 
 .pai2 img{
-  width: 23%;
-  height: 380px;
+  aspect-ratio: 1;  
+  width: 22%;
+  object-fit: cover;
   border-radius: var(--border_50);
   border: solid 3px var(--alice);
 }
@@ -47,8 +47,8 @@
 .image {
   display: flex;
   position: absolute;
-  width: 20%;
-  height: 100%;
+  width: auto;
+  height: auto;
   left: 42%;
 }
 
@@ -65,7 +65,8 @@
 .specifics{
   display: flex;
   border-radius: var(--border_20);
-  width: 80%;
+  flex-wrap: wrap;
+  width: 80vw;
   gap: 3%;
   color: var(--alice);
   justify-content: center;

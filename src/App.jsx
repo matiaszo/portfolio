@@ -10,13 +10,13 @@ export default function App() {
           <header>
         <h1 className={style.m}>M</h1>
         <div className={style.row}>
-            <a  href="#home"><h2 className={style.options} >Home</h2></a>
+            <a href="#home"><h2 className={style.options} >Home</h2></a>
             <a href="#social"><h2>Social</h2></a>   
             <a href="#profesional"><h2>Profesional</h2></a>
             <a href="#projects"><h2>Projects</h2></a>
-            <form>
+            {/* <form> */}
                 <a href="https://wa.me/5541991576895" target='_blank'><input type="button" name="Botao" value="Contact"/></a>
-            </form>
+            {/* </form> */}
         </div>
     </header>
 
@@ -36,7 +36,7 @@ export default function App() {
                 <p>A</p>
                 <p>K</p>
             </div>
-            <img className={style.image} src="./src/assets/my_photo.jpeg" alt=""/>
+            <img className={style.image} src="./src/assets/my_photo.jpeg" alt="minha foto"/>
         </div>
 
         <div id='profesional' className={style.second}>
