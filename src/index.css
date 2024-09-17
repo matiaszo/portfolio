@@ -1,21 +1,34 @@
 :root {
   --back_color: #0c243C;
   --input_color: #113b64;
-  /* fontes, shadows, border radius */
+  --image_back: #173e66;
+  --black: black;
+  --suse: "SUSE", sans-serif;
+  --alice: aliceblue;
+
+  --border_20: 20px;
+  --border_50: 50%;
+
 }
 
 *{
   margin: 0px;   
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--suse);
 }
 
 a{
-  color: var(--batata);
   text-decoration: none;
+  color: var(--alice);
 }
 
+a:hover{
+  color: var(--black);
+  -xpedu-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
 body{
-  background-color: var(back_color);
+  background-color: var(--back_color);
 }
 
 header{
@@ -23,7 +36,7 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: var(back_color);
+  background-color: var(--back_color);
   width: 100%;
   height: 10vh;
 
@@ -46,7 +59,7 @@ input{
 }
 p {
   font-size: 6rem;
-  color: aliceblue;
+  color: var(--alice);
 }
 
 h1{

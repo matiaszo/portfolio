@@ -7,16 +7,10 @@ export default function App() {
 
   return (
     <>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-        <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet"></link>
-    </head>
-
           <header>
         <h1 className={style.m}>M</h1>
         <div className={style.row}>
-            <a href="#home"><h2>Home</h2></a>
+            <a  href="#home"><h2 className={style.options} >Home</h2></a>
             <a href="#social"><h2>Social</h2></a>   
             <a href="#profesional"><h2>Profesional</h2></a>
             <a href="#projects"><h2>Projects</h2></a>
@@ -116,9 +110,9 @@ export default function App() {
         <div id='social' className={style.second}>
             <h1>Social</h1>
             <div className={style.specifics}>
-                <img className={style.languages} src="./src/assets/Instagram_logo.png"/>
-                <img className={style.languages} src="./src/assets/linkedin.png"/>
-                <img className={style.languages} src="./src/assets/twitter.png"/>
+                <a href="https://www.instagram.com/"><img className={style.languages} src="./src/assets/Instagram_logo.png"/></a>
+                <a href="https://br.linkedin.com/"><img className={style.languages} src="./src/assets/linkedin.png"/></a>
+                <a href="https://www.threads.net/?hl=pt-br"><img className={style.languages} src="./src/assets/twitter.png"/></a>
             </div>
         </div>
     </main>
