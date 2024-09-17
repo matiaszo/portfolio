@@ -48,7 +48,7 @@ export default function App() {
                         <br/>
                         <h2>engineering at PUCPR, on the fourth</h2>
                         <br/>
-                        <h2>period.</h2>
+                        <h2>semester.</h2>
                     </div>
                     <img  src="./src/assets/curso.jpg"/>
             </div>
